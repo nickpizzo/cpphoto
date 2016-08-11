@@ -4,7 +4,7 @@ var Pictures = React.createClass({
   render: function () {
     return(
       <div>
-        <p>Pictures</p>
+        <p>Pictures page</p>
       </div>
     )
   }

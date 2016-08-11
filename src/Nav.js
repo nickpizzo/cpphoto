@@ -1,4 +1,5 @@
 var React = require('react');
+import logo from './logo.svg';
 var {Link, IndexLink} = require('react-router');
 
 var Nav = React.createClass({
@@ -6,10 +7,11 @@ var Nav = React.createClass({
     return(
       <div>
         <header className="navigation">
-          <p><IndexLink to="/" activeClassName="active-link">Pictures</IndexLink></p>
-          <ul>
-            <h4><Link to="/about" className="link" activeClassName="active-link">About</Link></h4>
-            <h4><Link to="/contact" className="link" activeClassName="active-link">Contact</Link></h4>
+          <img src={logo} className="App-logo" alt="logo" />
+          <p><IndexLink to="/" ClassName="logo">CATHY PIZZO PHOTOGRAPHY</IndexLink></p>
+          <ul ClassName="navright">
+            <li><Link to="/about" activeClassName="active-link">ABOUT</Link></li>
+            <li><Link to="/contact" activeClassName="active-link">CONTACT</Link></li>
           </ul>
         </header>
       </div>

@@ -4,7 +4,7 @@ var Contact = React.createClass({
   render: function () {
     return(
       <div>
-        <p>contact</p>
+        <p>contact page</p>
       </div>
     )
   }

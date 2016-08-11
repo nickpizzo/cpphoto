@@ -5,7 +5,7 @@ import Nav from './Nav';
 
 var App = (props) => {
   return (
-    <div className="App">
+    <div className="container">
       <Nav/>
         {props.children}
     </div>
