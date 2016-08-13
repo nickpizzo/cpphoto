@@ -1,14 +1,16 @@
-var React = require('react');
+import React, {Component} from 'react';
 import logo from './logo.svg';
-var {Link, IndexLink} = require('react-router');
+import {Link, IndexLink} from 'react-router';
 
-var Nav = React.createClass({
-  render: function () {
+class Nav extends Component {
+  render () {
     return(
       <div>
         <header className="navigation">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p><IndexLink to="/" ClassName="logo">CATHY PIZZO PHOTOGRAPHY</IndexLink></p>
+          <IndexLink to="/" className="navleft">
+            <img src={logo} className="App-logo" alt="logo" />
+            <p>CATHY PIZZO PHOTOGRAPHY</p>
+          </IndexLink>
           <ul ClassName="navright">
             <li><Link to="/about" activeClassName="active-link">ABOUT</Link></li>
             <li><Link to="/contact" activeClassName="active-link">CONTACT</Link></li>
@@ -17,6 +19,6 @@ var Nav = React.createClass({
       </div>
     )
   }
-});
+}
 
-module.exports = Nav;
+export default Nav;

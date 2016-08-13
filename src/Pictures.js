@@ -1,13 +1,13 @@
-var React = require('react');
+import React, { Component } from 'react';
 
-var Pictures = React.createClass({
-  render: function () {
+class Pictures extends Component {
+  render () {
     return(
       <div>
         <p>Pictures page</p>
       </div>
     )
   }
-});
+};
 
-module.exports = Pictures;
+export default Pictures;
