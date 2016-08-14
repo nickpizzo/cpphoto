@@ -13,7 +13,9 @@
   },
   "dependencies": {
     "react": "^15.2.1",
-    "react-dom": "^15.2.1"
+    "react-dom": "^15.2.1",
+    "react-images": "^0.4.10",
+    "react-photo-gallery": "^4.2.12"
   },
   "scripts": {
     "start": "concurrently --kill-others 'react-scripts start' 'gulp'",
