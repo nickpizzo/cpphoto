@@ -2,11 +2,13 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,300,300italic,100,100italic,600);
 
 @import 'navStyles';
+@import 'picturesStyles';
 @import 'reset';
 
 body {
     background-image: url("bg.png");
     background-repeat: repeat;
+    overflow-y: scroll;
 }
 
 .container {
