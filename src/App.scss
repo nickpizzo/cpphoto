@@ -3,14 +3,27 @@
 
 @import 'navStyles';
 @import 'picturesStyles';
+@import 'aboutStyles';
 @import 'reset';
 
+
 body {
-    background-image: url("bg.png");
-    background-repeat: repeat;
-    overflow-y: scroll;
+  background-image: url("bg.png");
+  overflow-y: scroll;
 }
+
+// .viewport {
+//   overflow: auto;
+//   max-height: 100%;
+//   margin-right: -100px;
+//   padding-right: 100px;
+// }
+//
+// .hide-scroll {
+//   overflow: hidden;
+// }
 
 .container {
   margin: 0 15% auto;
+
 }

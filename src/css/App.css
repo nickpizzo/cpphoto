@@ -68,6 +68,24 @@
   display: block;
   margin-top: 10px; }
 
+.left {
+  float: left;
+  margin-right: 1.5em;
+  border: 2px solid; }
+
+.about {
+  padding-top: 3em;
+  width: 75%;
+  margin: 0 auto;
+  line-height: 1.5em;
+  font-family: 'Josefin Sans 300', sans-serif; }
+
+@media all and (max-width: 1100px) {
+  .about {
+    width: 80%; } }
+@media all and (max-width: 950px) {
+  .about {
+    width: 95%; } }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -113,7 +131,6 @@ table {
 
 body {
   background-image: url("bg.png");
-  background-repeat: repeat;
   overflow-y: scroll; }
 
 .container {
