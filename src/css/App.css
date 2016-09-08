@@ -68,6 +68,11 @@
   display: block;
   margin-top: 10px; }
 
+.pictures {
+  height: calc(100vh - 7em);
+  overflow-y: auto;
+  background-color: grey; }
+
 .left {
   float: left;
   margin-right: 1.5em;

@@ -9,7 +9,8 @@
     "gulp-sass": "^2.3.2",
     "gulp-ruby-sass": "^2.0.6",
     "react-router": "^2.6.1",
-    "react-scripts": "0.2.1"
+    "react-scripts": "0.2.1",
+    "@kadira/storybook": "^2.5.2"
   },
   "dependencies": {
     "jquery": "^3.1.0",
@@ -22,7 +23,9 @@
   "scripts": {
     "start": "concurrently --kill-others 'react-scripts start' 'gulp'",
     "build": "gulp sass && react-scripts build",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009",
+    "build-storybook": "build-storybook"
   },
   "eslintConfig": {
     "extends": "./node_modules/react-scripts/config/eslint.js"

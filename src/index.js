@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Route, Router, IndexRoute, hashHistory} from 'react-router';
+import {Route, Router, IndexRoute, browserHistory} from 'react-router';
 
 import App from './App';
 import Nav from './Nav';
@@ -9,7 +9,7 @@ import Contact from './Contact';
 import Pictures from './Pictures';
 
 ReactDOM.render(
-  <Router history={hashHistory}>
+  <Router history={browserHistory}>
     <Route path='/' component={App}>
       <IndexRoute component={Pictures}/>
       <Route path='about' component={About}/>
