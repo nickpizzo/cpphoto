@@ -1,3 +1,4 @@
+
 .navigation {
   list-style: none;
   height: 7em;
@@ -5,6 +6,7 @@
   justify-content: space-between;
   align-items: center;
   border-bottom: 2px dashed;
+  padding: 5px 0 5px 0;
 
   .navleft {
     display: flex;
@@ -31,6 +33,7 @@
     font-family: 'Josefin Sans 600', sans-serif;
     li a {
       padding: 3em 2em;
+
     }
   }
 
@@ -38,6 +41,11 @@
     color: black;
     text-decoration: none;
   }
+}
+
+a.active-link {
+  background-color: #878B9E;
+  border-radius: 5px;
 }
 
 @keyframes App-logo-spin {

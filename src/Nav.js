@@ -11,7 +11,7 @@ class Nav extends Component {
             <img src={logo} className="App-logo" alt="logo" />
             <p>CATHY PIZZO PHOTOGRAPHY</p>
           </IndexLink>
-          <ul ClassName="navright">
+          <ul className="navright">
             <li><Link to="/about" activeClassName="active-link">ABOUT</Link></li>
             <li><Link to="/contact" activeClassName="active-link">CONTACT</Link></li>
           </ul>
