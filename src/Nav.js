@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import logo from './logo.svg';
-import {Link, IndexLink} from 'react-router';
+import { Link, IndexLink } from 'react-router';
 
 class Nav extends Component {
   render () {
-    return(
+    return (
       <div>
         <header className="navigation">
           <IndexLink to="/" className="navleft">

@@ -3,14 +3,14 @@
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
+    "@kadira/storybook": "^2.5.2",
     "concurrently": "^2.2.0",
     "del": "^2.2.1",
     "gulp": "^3.9.1",
-    "gulp-sass": "^2.3.2",
     "gulp-ruby-sass": "^2.0.6",
+    "gulp-sass": "^2.3.2",
     "react-router": "^2.6.1",
-    "react-scripts": "0.2.1",
-    "@kadira/storybook": "^2.5.2"
+    "react-scripts": "0.2.1"
   },
   "dependencies": {
     "jquery": "^3.1.0",
